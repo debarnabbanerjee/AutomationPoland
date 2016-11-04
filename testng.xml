@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <suite name="My TestNG suite" parallel="methods">  -->
+<suite name="My TestNG suite" parallel="methods">
+
+<test name="set up project"> 
+    <classes>
+      <class name ="testNgPackage.testingClass"/>
+     <!--   <methods>
+        <include name="checkgmailEmail" />               
+      </methods> -->
+    </classes>
+</test>
+ 
+</suite>
